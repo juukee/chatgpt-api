@@ -1,5 +1,5 @@
 {
-  "name": "chatgpt",
+  "name": "@juukee/chatgpt",
   "version": "5.2.5",
   "description": "Node.js client for the official ChatGPT API.",
   "author": "Travis Fischer <travis@transitivebullsh.it>",
@@ -8,6 +8,9 @@
   "type": "module",
   "source": "./src/index.ts",
   "types": "./build/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
   "exports": {
     ".": {
       "import": "./build/index.js",
